@@ -1,7 +1,7 @@
 package com.giordano.gameanalyzerapi.domain.model;
 
 import java.io.Serializable;
-import java.time.Instant;
+import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -29,7 +29,7 @@ public class Record implements Serializable {
 	
 	private Integer age;
 	
-	private Instant moment;
+	private LocalDateTime moment;
 	
 	@ManyToOne
 	@JoinColumn(name="game_id")

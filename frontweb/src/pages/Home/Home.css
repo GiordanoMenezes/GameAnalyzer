@@ -25,6 +25,10 @@
   margin-top: 90px;
 }
 
+.home-actions a {
+  display:flex;
+}
+
 .home-btn {
   background-color: var(--color-turquoise);
   border-radius: 10px 0px 0px 10px;

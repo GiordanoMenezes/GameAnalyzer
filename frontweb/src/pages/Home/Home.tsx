@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { ReactComponent as ArrowRight } from '../../assets/images/arrowright.svg';
 import { ReactComponent as GamerImg } from '../../assets/images/gamer.svg';
@@ -16,10 +17,12 @@ function Home() {
           Clique no botão abaixo e saiba quais são os jogos que os gamers estão escolhendo
         </h3>
         <div className="home-actions">
-          <button className="home-btn">Quero Saber quais são</button>
-          <div className="home-btn-icon">
-            <ArrowRight />
-          </div>
+          <Link to="/records">
+            <button className="home-btn">Quero Saber quais são</button>
+            <div className="home-btn-icon">
+              <ArrowRight />
+            </div>
+          </Link>
         </div>
       </div>
       <GamerImg className="home-image" />

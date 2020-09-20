@@ -25,10 +25,13 @@
   margin-top: 90px;
 }
 
+<<<<<<< HEAD
 .home-actions a {
   display:flex;
 }
 
+=======
+>>>>>>> c50a494d8e20fda36d3d31b48fc35c6e8c44aa17
 .home-btn {
   background-color: var(--color-turquoise);
   border-radius: 10px 0px 0px 10px;
